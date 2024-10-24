@@ -52,7 +52,7 @@ const playgame=(userChoice) => {
             //rock,scissors
             userWin=computerchoice==="scissors" ? false:true;
         }
-        else(userChoice==="scissors")
+        else
         {
              //paper,rock
              userWin=computerchoice==="rock" ? false:true;
